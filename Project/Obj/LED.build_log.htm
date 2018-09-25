@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: yan wei, ZCKX, LIC=MPP56-DARPS-TE2H5-GALXI-L12V8-42PFW
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  d:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+E:\uV_5\STM32_USART\Project\Project.uvproj
+Project File Date:  08/30/2018
+
+<h2>Output:</h2>
+Build target 'USART'
+compiling stm32f10x_it.c...
+linking...
+.\Obj\LED.axf: Error: L6218E: Undefined symbol sei (referred from stepper.o).
+.\Obj\LED.axf: Error: L6218E: Undefined symbol sys (referred from stepper.o).
+.\Obj\LED.axf: Error: L6218E: Undefined symbol _delay_ms (referred from nuts_bolts.o).
+.\Obj\LED.axf: Error: L6218E: Undefined symbol _delay_us (referred from nuts_bolts.o).
+.\Obj\LED.axf: Error: L6218E: Undefined symbol HW_EEPROM_getChar (referred from eeprom.o).
+.\Obj\LED.axf: Error: L6218E: Undefined symbol HW_EEPROM_putChar (referred from eeprom.o).
+.\Obj\LED.axf: Error: L6218E: Undefined symbol cli (referred from eeprom.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 7 error messages.
+".\Obj\LED.axf" - 7 Error(s), 0 Warning(s).
+Target not created.
+</pre>
+</body>
+</html>
